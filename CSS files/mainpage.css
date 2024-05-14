@@ -1,4 +1,57 @@
 body {
     background-color: #d2d2d2;
-    margin: 0
+    margin: 0;
 }
+
+.main-image{
+    margin-top:120px;
+}
+.boxes{
+    
+    display: grid;
+    grid-template-columns: 1fr auto auto auto 1fr;
+    gap:320px;
+    padding: 20px;
+    align-items: center;
+    height: 400px;
+    z-index: 2000;
+}
+footer {
+    background-color: #247d8d;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+
+.horizontal-boxes {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 170px; /* Adjust gap as needed */
+}
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 2;
+    padding: 10px;
+}
+.second{
+    display: flex;
+    align-items: center;
+    grid-column: 3;
+    padding: 10px;
+    height: 100px;
+    
+}
+.third{
+    display: flex;
+    align-items: center;
+    grid-column: 4;
+    padding: 10px;
+    
+    
+}
+
+

@@ -81,6 +81,7 @@ div {
     padding: 0;
     display: flex;
     gap: 20px; /* Adjust gap as needed */
+    margin-right: 21;
 }
 
 .menu-info-wrapper {
