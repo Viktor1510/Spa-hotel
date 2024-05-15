@@ -1,0 +1,18 @@
+.form-box {
+    width: 90%;
+    max-height: 1000px;
+    max-width: 550px;
+    background-color: #fafafa;
+    padding: 50px 60px 70px;
+    text-align: center;
+    box-shadow: 0 0 5px #b1b2b7;
+    flex-shrink: 0; 
+    justify-content: center;
+}
+.form-box h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 100px;
+    color: rgb(66, 66, 66);
+    font-size: 27px;
+    position: relative;
+}

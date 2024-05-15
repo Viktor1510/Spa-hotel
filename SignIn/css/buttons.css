@@ -1,0 +1,60 @@
+/* бутони - Вход/Регистрация */
+.login-btn-field{
+    margin-top: -15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.login-btn-field button{
+    flex-basis: 48%;
+    height: 40px;
+    border: 0;
+    color: white;
+    background-color:#50b4e6; 
+    /* #247D8D */
+    cursor: pointer;
+}
+.login-btn-field button.disable{
+    background-color: #247D8D;
+}
+
+/* бутон - Забравена парола */
+.forgot-pass-btn-field{
+    position: relative;
+    top: 20px;
+}
+.forgot-pass-btn-field button{
+    height: 25px;
+    border: 0;
+    color: rgb(0, 0, 0);
+    background-color: rgb(201, 201, 201);
+    cursor: pointer;
+}
+
+/* най-долния бутон, нз как да го кръстя */
+.submit-btn-field{
+    position: relative;
+    top: 50px;
+}
+.submit-btn-field button{
+    height: 50px;
+    width: 100%;
+    border: 0;
+    color: white;
+    background-color: #247D8D;
+    cursor: pointer;
+}
+
+/* X бутон */
+.close-btn{
+    position: fixed; 
+    font-weight: bold;
+    font-size: 18px;
+    color: gray;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
