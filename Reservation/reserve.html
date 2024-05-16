@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles-reserve.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+   
+    <script src="reservation.js" defer></script>
+</head>
+<body style="height: 1500px; width: 1100px;">
+
+    <nav class="menu">
+        <div class="menu-top">
+            <a href="index.html">
+                <img class="menu-logo" src="logo-fixed.png" height="100" width="311">
+            </a>
+            <div class="menu-menu">
+                <ul class="menu-horizontal-list">
+                    <li class="menu-item"><a href="" class="menu-link">Зони</a></li>
+                    <li class="menu-item"><a href="" class="menu-link">Цени</a></li>
+                    <li class="menu-item"><a href="" class="menu-link">За Нас</a></li>
+                </ul>
+            </div>
+            <div class="menu-sticky-right-text">
+                <ul class="menu-horizontal-list-right">
+                    <li><a href="" class="menu-link">Вход</a></li>
+                    <li>|</li>
+                    <li><a href="" class="menu-link">Регистрация</a></li>
+                </ul>
+            </div>
+            <div class="menu-info-wrapper menu-flex-row">
+                <div class="menu-info-left">
+                    <p class="p-padding">Варна, ул. Български орел  № 15</p>
+                    <p class="p-padding">087 622 2254</p>
+                </div>
+                <div class="menu-info-right">
+                    <p class="p-padding">Пон - Съб: 9.00 - 21.00</p>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+ <div class="image-salt">
+    <img src="salt-room.jpg" height="500px" width="900px">
+ </div>
+
+<div class="wrapper">
+    <div class="text-reservation-view">
+        <p>
+            <h3 style="text-align: center; font-family: 'Times New Roman', Times, serif; ">направете</h3>
+            <h2 style="font-family:calibri; text-align: center;">РЕЗЕРВАЦИЯ</h2>
+        </p>
+    </div>
+    <div class="icons-container">
+    <img id="#calendar-content" src="calendar.png" height="50px" width="50px" style="transform: translateX(-10px) translateY(-5px);", onclick="changeContent('calendar')">
+    <img id="#people-count" src="people.png" height="50px" width="50px" style="transform: translateX(0px) translateY(-5px);">
+    <img src="clock.png" height="50px" width="50px" style="transform: translateX(7px) translateY(-5px);">
+    <img src="zone.png" height="50px" width="50px" style="transform: translateX(15px) translateY(-5px);">
+    <img src="confirm.png" height="50px" width="50px" style="transform: translateX(20px) translateY(-5px);">
+    </div>
+    <hr style="transform: translateY(-28px);" color="black">
+    <header>
+        <p class="current-date"></p>
+        <div class="icons">
+            <span id="prev" class="material-symbols-rounded">chevron_left</span>
+            <span id="next" class="material-symbols-rounded">chevron_right</span>
+        </div>
+    </header>
+
+
+    <div class="calendar">
+        <ul class="weeks">
+            <li>НД</li>
+            <li>ПН</li>
+            <li>ВТ</li>
+            <li>СР</li>
+            <li>ЧТ</li>
+            <li>ПТ</li>
+            <li>СБ</li>
+        </ul>
+        <ul class="days"></ul>
+    </div>
+</div> 
+
+<footer>
+    <div><p></p></div>
+</footer>
+ 
+
+
+
+</body>
+</html>
