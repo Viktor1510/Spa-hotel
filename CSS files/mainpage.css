@@ -1,3 +1,12 @@
+:root {
+    --footer-background: #247d8d;
+    --text-color: #FAFBFC;
+    --text-gray: #FEFEFE;
+    --text-heading-gray: #F4F5F6;
+    --text-primary: #FAFBFC;
+    --button-color: #2EA1B6;
+    --button-border: #24488D;
+}
 
 body {
     background-color: #d2d2d2;
@@ -23,12 +32,7 @@ body {
     z-index: 2000;
     margin-right: 15%;
 }
-footer {
-    background-color: #247d8d;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-  }
+
 
 .articles{
     display:flex;
