@@ -1,3 +1,12 @@
+:root {
+    --footer-background: #247d8d;
+    --text-color: #FAFBFC;
+    --text-gray: #FEFEFE;
+    --text-heading-gray: #F4F5F6;
+    --text-primary: #FAFBFC;
+    --button-color: #2EA1B6;
+    --button-border: #24488D;
+}
 footer {
     position: bottum;
     bottom: 0;
