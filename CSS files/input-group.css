@@ -1,0 +1,23 @@
+.input-group{
+    position: relative;
+    top: 50px
+}
+.input-field{
+    background: #fff;
+    margin: 15px 0px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ced0d1;
+    max-height: 65px;
+}
+.input-field i{
+    margin-left: 15px;
+    color: #999;
+}
+input{
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    padding: 10px;
+    outline: 0;
+}
