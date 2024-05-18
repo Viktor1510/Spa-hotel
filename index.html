@@ -5,6 +5,11 @@
     <link rel="stylesheet" href="CSS files/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="SignIn/css/buttons.css">
+    <link rel="stylesheet" href="SignIn/css/form-box.css">
+    <link rel="stylesheet" href="SignIn/css/input-group.css">
+    <link rel="stylesheet" href="SignIn/css/outer-box.css">
+    <link rel="stylesheet" href="SignIn/css/overlay.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap"
         rel="stylesheet"
@@ -25,10 +30,104 @@
             </div>
             <div class="menu-sticky-right-text">
                 <ul class="menu-horizontal-list-right">
-                    <li><a href="" class="menu-link">Вход</a></li>
+                    <li><a href="" class="menu-link" onclick="triggerOverlaySignIn(event)">Вход</a></li>
                     
                 </ul>
             </div>
+
+            <div class="overlay" id="overlaySignIn" style="display: none;">
+                <div class="outer-box">
+                    <button type="button" class="close-btn" id="closeBtn" onclick="closeOverlaySignIn(event)">X</button>
+                    <div class="form-box">
+                        <h1>ВАШАТА ИНФОРМАЦИЯ</h1>
+                        <form>
+                            <div class="login-btn-field">
+                                <button type="button" id="signInBtn" onclick="triggerOverlaySignIn(event)">Вход</button>
+                                <button type="button" class="disable" id="signUpBtn" onclick="triggerOverlaySignUp(event)">Регистрация</button>
+                            </div>
+                
+                            <div class="forgot-pass-btn-field">
+                                <button type="button" id="forgotPassBtn">Забравена парола</button>
+                            </div>
+                
+                            <div class="input-group">
+                                <div class="input-field">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <input type="text" placeholder="Имейл" id="emailInput">
+                                </div>
+                                <div class="input-field">
+                                    <i class="fa-solid fa-lock"></i>
+                                    <input type="text" placeholder="Парола" id="passwordInput">
+                                </div>
+                            </div>
+                
+                            <div class="submit-btn-field">
+                                <button type="button" id="submitBtn">Вход</button>
+                            </div>
+                
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="overlay" id="overlaySignUp" style="display: none;">
+                <div class="outer-box">
+                    <button type="button" class="close-btn" id="closeBtn" onclick="closeOverlaySignUp(event)">X</button>
+                    <div class="form-box">
+                        
+                        <h1>ВАШАТА ИНФОРМАЦИЯ</h1>
+                        <form>
+                            <div class="login-btn-field">
+                                <button type="button" class="disable" id="signInBtn" onclick="triggerOverlaySignIn(event)">Вход</button>
+                                <button type="button" id="signUpBtn" onclick="triggerOverlaySignUp(event)">Регистрация</button>
+                            </div>
+                
+                            <div class="forgot-pass-btn-field">
+                                <button type="button" id="forgotPassBtn">Забравена парола</button>
+                            </div>
+                
+                            <div class="input-group">
+                
+                                <div class="input-field">
+                                    <i class="fa-solid fa-person"></i>
+                                    <input type="text" placeholder="Име" id="nameInput">
+                                </div>
+                
+                                <div class="input-field">
+                                    <i class="fa-solid fa-person"></i>
+                                    <input type="text" placeholder="Фамилия" id="surnameInput">
+                                </div>
+                
+                                <div class="input-field">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <input type="text" placeholder="Имейл" id="emailInput">
+                                </div>
+                
+                                <div class="input-field">
+                                    <i class="fa-solid fa-mobile-screen"></i>
+                                    <input type="text" placeholder="+359 888 8888" id="phoneInput">
+                                </div>
+                
+                                <div class="input-field">
+                                    <i class="fa-solid fa-lock"></i>
+                                    <input type="password" placeholder="Парола" id="passwordInput">
+                                </div>
+                
+                                <div class="input-field">
+                                    <i class="fa-solid fa-lock"></i>
+                                    <input type="password" placeholder="Повторете паролата" id="repeatPasswordInput">
+                                </div>
+                            </div>
+                
+                            <div class="submit-btn-field">
+                                <button type="button" id="submitBtn">Регистрация</button>
+                            </div>
+                
+                        </form>
+                    </div>
+                </div>
+            </div>
+
             <div class="menu-info-wrapper menu-flex-row">
                 <div class="menu-info-left">
                     <p class="p-padding">Варна, ул. Български орел  № 15</p>
@@ -227,5 +326,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="SignIn/javascript/functions.js"></script>
 </body>
 </html>
