@@ -80,6 +80,9 @@ footer {
     outline: none;
     border: 1px solid var(--button-border);
 }
+.footer-subscribe > button:hover {
+    background-color:#4ABFD4;
+}
 
 /*? footer columns */
 .footer-columns {
