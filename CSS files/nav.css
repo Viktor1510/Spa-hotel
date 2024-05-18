@@ -60,6 +60,10 @@ div {
     text-decoration: none;
     white-space: nowrap;
 }
+.menu-link:hover{
+    color:#1E90FF;
+    text-decoration: underline;
+}
 
 .menu-item {
     position: relative;
