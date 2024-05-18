@@ -47,7 +47,7 @@ body {
     border-radius: 16px;
     box-shadow: rgba(100,100,111,0.2)
         0px 7px 29px 0;
-    background-color: white;
+    background-color: #e0e0e0;
 }
 .articles article h2{
     margin:0 0 0.5rem 0;
@@ -55,10 +55,12 @@ body {
     color:var(--text);
     transition: color 0.3s ease-out;
     text-align: left;
-    margin-left:4%;
+    margin-left:5%;
 }
 .articles p{
-    margin-left:4%;
+    margin-left:5%;
+    color:#333;
+    margin-bottom: 5%;
 }
 
 .articles article img{
