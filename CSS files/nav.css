@@ -2,6 +2,11 @@ body>nav {
     grid-row: nav;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 nav {
     display: block;
     unicode-bidi: isolate;

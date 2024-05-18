@@ -9,11 +9,7 @@ body {
 .main-image{
     margin-top:120px;
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 .boxes{
     display: grid;
     grid-template-columns: 1fr auto auto auto 1fr;
