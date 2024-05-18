@@ -150,7 +150,7 @@ footer {
 /*? Footer bottom */
 .footer-bottom {
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 1.2rem;
     display: flex;
     align-items: center;
     width: 100%;
@@ -211,7 +211,9 @@ footer {
     list-style-type: none;
 }
 
-/*? mobile */
+#email{
+    background-color: #011140;
+}
 
 @media (max-width: 800px) {
     .footer-top {
