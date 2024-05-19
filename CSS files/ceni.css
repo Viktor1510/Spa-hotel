@@ -3,6 +3,42 @@ body{
     margin:0;
 }
 .textbox{
-    height: 500px;
+    height: 100%;
     padding-top:120px;
+}
+.textbox h1{
+    text-align: center;
+    font-size: 50px;
+    padding:20px;
+    padding-bottom: 5%;
+}
+.textbox table{
+    margin-top: 4%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width:70%;
+    padding-top: 2%;
+    font-size:140%;
+    margin-bottom: 5%;
+}
+.textbox tr{
+    border-bottom: solid;
+}
+tr.spaceUpper>td {
+    padding-top: 2em;
+  }
+.head{
+    width: 70%;
+    margin-left:auto;
+    margin-right:auto;
+    background:#247d8d;
+    text-align: center;
+    font-size:115%;
+}
+.t-name{
+    text-align: left;
+}
+.t-price{
+    text-align:right;
 }
