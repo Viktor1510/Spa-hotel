@@ -1,0 +1,30 @@
+.za-nas-hotel-name{
+    margin-top: 50px;
+    text-align: center;
+}
+.za-nas-hotel-name h1{
+    font-size: 45px;
+    font-weight: 100;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(46, 45, 45);
+    letter-spacing: 3px;
+}
+.za-nas-container{
+    display: flex;
+    text-align: center;
+}
+.za-nas-inside-container-left, .za-nas-inside-container-right{
+    width: 50%;
+    text-align: left;
+}
+.za-nas-inside-container-left li{
+    text-align: left;
+    margin-left: 40%;
+    font-size: 25px;
+}
+.za-nas-inside-container-right iframe{
+    margin-top: 30px;
+    height: 380px;
+    width: 500px;
+}
+
