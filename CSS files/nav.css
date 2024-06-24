@@ -194,6 +194,9 @@ div {
         justify-self: center;
         padding: 20px 0 0 0;
     }
+    .menu-sticky-right-text{
+        margin-top:1px;
+    }
 
     .menu-icon {
         display: block;
